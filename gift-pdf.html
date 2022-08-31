@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift pdf</title>
+    <style>
+        @font-face {
+            font-family: Comfortaa;
+            src: url(assets/fonts/Comfortaa-VariableFont_wght.ttf);
+        }
+        body{
+            font-family:Comfortaa,cursive
+        }
+        .page {
+            background: white;
+            display: block;
+            margin: 0 auto;
+            width: 21cm;
+        }
+        @media print {
+            body, .page {
+                margin: 0;
+                box-shadow: none;
+                -webkit-print-color-adjust: exact !important;
+            }
+            .blue-section{
+                background-color: #ffffff;
+            }
+            footer{
+            background-color:#e4e4e4;
+        }
+        }
+        .banner-section img{
+            height: 340px;
+            width: 100%;
+        }
+        .clearfix{
+            clear:both;
+        }
+        .price-section strong{
+            font-size: 48px;
+            font-weight: bold;
+            letter-spacing: 0.96px;
+            text-align: center;
+            color: #fff;
+            background-color: #ff5100;
+            min-width: 295.4px;
+            display: block;
+            width: 330px;
+            margin: auto;
+            bottom: -24px;
+            position: absolute;
+            right: 30px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .price-section strong span{
+            font-size: 21px;
+        }
+        .gray-paragraph{
+            font-size: 18px;
+            letter-spacing: normal;
+            color: #232323;
+            margin-top: 0px;
+            margin-bottom: 30px;
+            margin-top: 20px;
+        }
+        .certificate p{
+            font-size: 14px;
+            letter-spacing: 0.28px;
+            color: #7d7d7d;
+        }
+        hr{
+            border-top: 0px;
+            border-bottom: 2px solid #e2e2e5;
+        }
+        footer img{
+            display: inline-block;
+            margin-left: 52px;
+        }
+        footer p{
+            display: inline-block;
+            text-align: left;
+            color: #7d7d7d;
+            font-size: 12px;
+        }
+        .personal-message{
+            margin:auto;
+            background-color: #1d1934;
+            text-align:center;
+            margin-bottom:20px;
+            position: relative;
+        }
+        .personal-message strong{
+            color:#ffffff;
+            font-size:17px;
+            padding-top:26px;
+            padding-bottom:5px;
+            display:block;
+            text-align:center;
+            width:100%;
+        }
+        .personal-message p{
+            font-size:12px;
+            color:#ffffff;
+            width:80%;
+            text-align:center;
+            display:block;
+            margin:auto;
+            letter-spacing:0.56px;
+            padding-bottom:30px;
+            font-weight:normal;
+        }
+        .icon-image{
+            width:30px;
+            height:30px;
+        }
+        .top-icon{
+            float:left;
+            margin-left:11px;
+            margin-top:15px;
+        }
+        .bottom-icon{
+            float: right;
+            position: absolute;
+            right: 11px;
+            bottom: 10px;
+        }
+        .banner-section{
+            position: relative;
+        }
+        .logo{
+            width: 259px;
+            margin-bottom: 20px;
+        }
+        footer{
+            background-color:transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <img src="assets/images/dark-logo.svg" alt="dark-logo" class="logo">
+        <!-- start blue section -->
+        <div class="banner-section">
+            <img src="assets/images/slider-tour.png" alt="banner-image">
+            <div class="price-section">
+                <strong>9999.999
+                    <span>AED</span>
+                </strong>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <!-- end blue section -->
+       <!-- start price section -->
+       <p class="gray-paragraph">
+            Gift Code : XXX-XXX-XXX
+            <span style="display: block;font-size: 14px;margin-top: 4px;">Expiration date: July 1, 2021</span>
+       </p>
+       <!-- start tour details -->
+       <img src="assets/images/slider-tour.png" alt="banner-image" style="width: 268.2px;height: 94px;display:block;margin:auto;">
+       <p style="text-align:center;color:#232323;font-size:18px;margin-top: 10px;margin-bottom: 4px;font-weight:bold">The Palm 17 minute helicopter ride dubai</p>
+       <p style="text-align:center;color:#7d7d7d;font-size:14px;width:70%;display:block;margin:auto;margin-top:10px;">The city sightseeing bus tour lets you enjoy a personalized sightseeing tour of Dubai with unlimited travel routes, letting you explore the city at your own pace.</p>       
+       <p style="text-align:center;color:#7d7d7d;font-size:14px;width:70%;display:block;margin:auto;margin-top:10px;    margin-bottom: 25px;">https://www.arabiahorizons.com/things-to-do/Dubai/City-Sightseeing-Bus</p>
+       <!-- end tour details -->
+       <!-- end price section -->
+       <div class="personal-message">
+        <img src="assets/images/gift-card-icon2.svg" alt="gift-image" class="top-icon icon-image">
+        <strong>Personal Message</strong>
+        <p>The city sightseeing bus tour lets you enjoy a personalized sightseeing tour of Dubai with unlimited travel routes, letting you explore the city at your own pace.</p>
+        <img src="assets/images/gift-card-icon.svg" alt="gift-image" class="bottom-icon icon-image">
+        </div>
+       <!-- start gift certificate -->
+       <div class="certificate">
+           <p>Your gift certificate is valid for 6 month (Expiration date: July 1, 2021)
+            889.50.</p>
+       </div>
+       <hr/>
+       <!-- end gift certificate -->
+       <footer>
+           <p>You can use this gift card for any product by entering the card code in the appropriate entry field at checkout. And if the price of a booking differs from the amount on the gift certificate, no problem: just pay the difference or use remaining credit for another booking. 
+            </p>
+       </footer>
+    </div>
+</body>
+</html>
